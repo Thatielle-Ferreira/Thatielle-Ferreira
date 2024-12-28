@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # Define uma versão específica do Ubuntu
 
     steps:
       - name: Checkout the repository
@@ -16,7 +16,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v3.1.0
         with:
-          github_user_name: Thatielle-Ferreira # Seu nome de usuário no GitHub
+          github_user_name: Thatielle-Ferreira
           outputs: dist/github-contribution-grid-snake.svg
 
       - name: Push the Snake Animation
