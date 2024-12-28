@@ -67,3 +67,5 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thatielle-Ferreira&layout=compact&langs_count=7&theme=radical"/> 
   </center>
 </div>
+
+![Snake animation](https://github.com/Thatielle-Ferreira/Thatielle-Ferreira/blob/output/github-contribution-grid-snake.svg)
